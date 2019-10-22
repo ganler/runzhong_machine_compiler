@@ -31,7 +31,7 @@
 
 
 
-![](image/buildcxx.png)
+![](image/cxx.png)
 
 ## Build React
 
