@@ -1,5 +1,9 @@
 # RunzhongMachineCompiler
 
+*Runzhong Machine, the DEEP DARK OLD MAGIC inspired from Runzhong Li.*
+
+![](https://i.loli.net/2019/10/22/GrS5J4hzwW7PxLA.png)
+
 ## Author Info
 
 > - Jiawei Liu@ganler
