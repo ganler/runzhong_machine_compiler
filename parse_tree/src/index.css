@@ -1,0 +1,13 @@
+@font-face{
+  font-family: 'myFont';
+  src:url('./font/CascadiaCode-Regular-VTT.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    font-family: "myFont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+  }
+  
+  

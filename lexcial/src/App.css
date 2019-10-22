@@ -1,0 +1,55 @@
+
+@font-face{
+  font-family: 'myFont';
+  src:url('./font/CascadiaCode-Regular-VTT.ttf') format('truetype');
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 150vh;
+  /*display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;*/
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  text-align: center;
+  font-family: "myFont";
+  font-size: 28px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-srcinput {
+  text-align: left;
+  height: 40vmin;
+  width : 60vmin;
+}
+.App-div{
+  margin : 1%;
+  float:left;
+  letter-spacing:1px;
+}
+.App-span{
+  width:auto;
+  white-space: pre-wrap;
+  font-size: 10px;
+  font-family: "myFont";
+  margin: -6px;
+  /*display: inline-block;*/
+  /*word-break:normal;    
+  display:inline-block;
+  /*white-space: pre-wrap;
+  word-wrap : normal;
+  overflow: hidden ;*/
+}
+
