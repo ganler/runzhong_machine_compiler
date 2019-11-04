@@ -1,6 +1,6 @@
 # RunzhongMachineCompiler
 
-*Runzhong Machine, the DEEP DARK OLD MAGIC inspired from Runzhong Li.*
+*Runzhong Machine, the DEEP DARK OLD MAGIC inspired from my old friend Runzhong Li.*
 
 ![](https://i.loli.net/2019/10/22/GrS5J4hzwW7PxLA.png)
 
@@ -8,12 +8,21 @@
 
 > - Jiawei Liu@ganler
 >   - Project Manager;
->   - CXX backend building;
->   - Algorithm;
+>   - CXX backend;
+>   - Algorithm(Both in compiler design and performance optimization);
 > - Junyao Li@taltalite
 >   - React Frontend;
 > - Zizheng Zhong@zzznb
->   - Algorihtm.
+>   - Algorithm.
+
+## Key Feather
+
+- **High-quality Modern C++ Code.**
+  - I made heavy use of generic programming technics. You can easily use user-defined container and string if you like.
+  - I made heavy use of `std::string_view` to avoid any kinds of unnecessary evil string copies(Well, that's why it has better performance).
+  - Zero-C++-Dependency: All C++ codes uses STL only, besides multi-threading.(Well, I am a modern C++ programmer who care everything about performance and beautiful code😎)
+- **Beautiful GUI**(As you can see below).
+- **Fork&Join based lexcial analysis**(To make the lexcial analysis procedure faster🚀)
 
 ## Demo
 
@@ -68,6 +77,8 @@ npm start # then you gonna see a parse-tree. Wonderful!
 ![](image/show.jpg)
 
 ## Brief Intro to Our Design
+
+> Note that our procedure of lexcial analysis is **parallelized**(I used the `fork&join` model to analyze each line. But of course, you need to deal with multi-line comment issue first(give it a single pass!)).
 
 ![](https://i.loli.net/2019/10/22/tM4EFS1PVpQDHce.png)
 
