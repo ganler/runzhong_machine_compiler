@@ -20,7 +20,7 @@
 - **High-quality Modern C++ Code.**
   - I made heavy use of generic programming technics. You can easily use user-defined container and string if you like.
   - I made heavy use of `std::string_view` to avoid any kinds of unnecessary evil string copies(Well, that's why it has better performance).
-  - Zero-C++-Dependency: All C++ codes uses STL only, besides multi-threading.(Well, I am a modern C++ programmer who care everything about performance and beautiful code😎)
+  - Zero-Dependency(C++): All C++ codes use STL only, including multi-threading. (Well, I am a modern C++ programmer who care everything about performance and beautiful code😎)
 - **Beautiful GUI**(As you can see below).
 - **Fork&Join based lexcial analysis**(To make the lexcial analysis procedure faster🚀)
 
