@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "graphviz": "0.0.9",
-    "highlight.js": "^9.15.10",
+    "highlight.js": "^10.4.1",
     "randomcolor": "^0.5.4",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
